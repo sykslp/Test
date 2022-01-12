@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+    background-color: #FFFFF
+}
+ 
+p {
+    text-align: center;
+    float: center;
+    font-family: "calibri";
+    font-size: large;
+    color: #011627;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 15px;
+}
+ 
+h1 {
+    text-align: center;
+    float: center;
+    font-family: "Helvetica";
+    color: #264653;
+    font-size: 84px;
+}
+ 
+h2 {
+    text-align: center;
+    float: center;
+    font-family: "calibri";
+    font-size: xx-large;
+    color: #264653;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+ 
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: auto;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+ol {
+    text-align: left;
+    float: center;
+    color: #011627;
+    font-family: "Arial";
+    margin-left: 200px;
+}
+ 
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+<head>
+    <title>
+        SNPAAMapper
+    </title>
+</head>
+<body>
+    <header>
+        <h1>SNPAA Mapper</h1>
+        <p><button class="btn"><a href="SNPAAMapper2.0.tar"download><i class="fa fa-download"></i> Download</button>
+        </a>
+        </p>
+        <h2>What is the SNPAA Mapper?</h2>
+    </header>
+    <p>SNPAAMapper is a downstream variant annotation program that can effectively classify variants by region (e.g. exon, intron, etc), predict amino acid change type (e.g. synonymous, non-synonymous mutation, etc), and prioritize mutation effects (e.g. CDS versus 5'UTR, etc).</p>
+    <h2>Some Major Features of the SNPAA Mapper Are...</h2>
+    <ol>
+        <li>
+            The pipeline accepts the VCF input file in tab-delimited format and processes the vcf input file containing all cases (G5, lowFreq, and novel)
+        </li>
+        <li>
+            The variant mapping step has the option of letting users select whether they want to report the bp distance between each identified intron variant and its nearby exon
+        </li>
+        <li>
+            The pipeline can deal with VCF files called by different SAMTools versions (0.1.18 and older ones) and also offers flexibility in dealing with vcf input files generated using SAMTools with two or three samples
+        </li>
+        <li>
+            The spreadsheet result file contains full protein sequences for both ref and alt alleles, which makes it easier for downstream protein structure/function analysis tools to take
+        </li>
+    </ol>
+    <h2>Instructions</h2>
+        
+ 
+ 
+ 
+
